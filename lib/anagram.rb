@@ -14,6 +14,6 @@ class Anagram
  end
  
  def match(words)
-   words.select {|w| 
+   words.select {|w| w.split("")
    end
  end
