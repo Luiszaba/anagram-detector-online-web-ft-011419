@@ -8,9 +8,6 @@ class Anagram
     @words = words
   end
   
- def reorganize_words(words)
-   words.char.sort == @words.char.sort
- end
  
  def match(words)
    words.select {|w| w.split("").sort == @words.split("").sort}
