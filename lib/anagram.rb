@@ -4,8 +4,8 @@ class Anagram
   
   attr_accessor :words
   
-  def initialize(words)
-    @words = words
+  def initialize(word)
+    @words = word
   end
   
  def reorganize_words(words)
