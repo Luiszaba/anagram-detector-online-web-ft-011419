@@ -4,8 +4,8 @@ class Anagram
   
   attr_accessor :words
   
-  def initialize(word)
-    @words = word
+  def initialize(words)
+    @words = words
   end
   
  def reorganize_words(words)
@@ -14,6 +14,6 @@ class Anagram
  end
  
  def match(words)
-   
+   words.select {|w| 
    end
  end
