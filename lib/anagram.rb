@@ -14,7 +14,6 @@ class Anagram
  end
  
  def match(words)
-   words.select do |word|
-     reorganize_words
+   
    end
  end
