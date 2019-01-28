@@ -11,7 +11,6 @@ class Anagram
  def reorganize_words(words)
    words.char.sort == @words.char.sort
  end
- end
  
  def match(words)
    words.select {|w| w.split("").sort == @words.split("").sort}
